@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam:400,700&display=swap');
+*,
+*::after,
+*::before
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html 
+{
+    font-size: 62.5%;
+}
+@media only screen and (max-width: 75em) 
+{
+    html 
+    {
+        font-size: 56.25%; 
+    } 
+}
+@media only screen and (max-width: 56.25em)
+{
+    html 
+    {
+        font-size: 50%;
+    } 
+}
+
+body 
+{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+
+      
+}
+@media only screen and (max-width: 56.25em) 
+{
+    body 
+    {
+        padding: 0; 
+    } 
+}
+
+header
+{
+    
+    height: 100vh;
+    background-image: url('../img/index_bg.svg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+
+    p
+    {
+        font-family: 'Kalam', cursive;
+        font-weight: 700;
+        font-size: 120px;
+        text-align: center;
+        padding-top: 17%;
+        color:#311892;
+
+        span
+        {
+            color: red;
+            img
+            {
+                height: 130px;
+            }
+        }
+    }
+    
+    h1
+    {
+        font-weight: 300;
+        font-size: 24px;
+        text-align: center;
+        letter-spacing: 0.8px;
+        color: #525f7f;
+
+        
+    }
+
+    div
+    {
+        text-align: center;
+    }
+
+    i
+    {
+        font-size: 95px;
+        margin:10px 25px;
+        cursor: pointer;
+    }
+
+    .html
+    {
+        color: darkred;
+    }
+
+    .css
+    {
+        color: rgb(0, 68, 255);
+    }
+
+    .js
+    {
+        color: darkorange;
+    }
+}
