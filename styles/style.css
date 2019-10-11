@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700&display=swap");
 @-webkit-keyframes tracking-in-expand {
   0% {
     letter-spacing: -0.5em;
@@ -141,10 +141,12 @@
   color: white;
   font-family: inherit;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: 1px;
-  width: 130px;
+  width: 125px;
   height: 60px;
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#e14eca), color-stop(#ba54f5), to(#e14eca));
+  background-image: linear-gradient(to bottom left, #e14eca, #ba54f5, #e14eca);
 }
 
 .btn-card {
@@ -155,6 +157,7 @@
   width: 120px;
   font-family: inherit;
   margin-top: 12px;
+  margin-left: 180px;
   border-radius: 5px;
   font-size: 15px;
   letter-spacing: 0.5px;
@@ -171,6 +174,7 @@
   font-size: 35px;
   font-weight: 500;
   letter-spacing: 1.5px;
+  color: white;
 }
 
 .res-heading {
@@ -195,6 +199,7 @@
           justify-content: space-evenly;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  color: white;
 }
 
 .card {
@@ -202,8 +207,7 @@
   -webkit-box-shadow: 0px 10px 82px -29px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 10px 82px -29px rgba(0, 0, 0, 0.5);
   padding: 12px;
-  background-color: rgba(0, 0, 0, 0);
-  background-image: url("../img/bg_card.svg");
+  background: linear-gradient(35deg, #f5365c, #f56036) !important;
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -213,8 +217,9 @@
 }
 
 .card img {
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
 }
 
 *,
@@ -269,86 +274,68 @@ body {
   color: black !important;
 }
 
-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  background-color: #5e72e4;
-  color: white;
-  height: 80px;
-  letter-spacing: 1px;
-  -webkit-box-shadow: 0px 14px 32px -22px rgba(0, 0, 0, 0.75);
-          box-shadow: 0px 14px 32px -22px rgba(0, 0, 0, 0.75);
-}
-
-nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  list-style: none;
-  padding-right: 100px;
-}
-
-nav i {
-  font-size: 24px;
-  margin-top: 25px;
-  margin-left: 50px;
-}
-
-nav a {
-  padding-right: 55px;
-  font-size: 17px;
-  margin: auto;
-}
-
-nav p {
-  font-family: 'Righteous', cursive;
-  font-size: 24px;
-}
-
 header {
-  height: 96vh;
-  background-image: url("../img/presentation_bg.png");
-  background-size: contain;
+  height: 100vh;
+  background-image: url("../img/banner_2.png");
+  background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-  background-position-x: right;
+  font-family: 'Montserrat', sans-serif;
 }
 
-header p {
-  font-family: 'Righteous', cursive;
-  font-weight: 400;
-  font-size: 100px;
-  letter-spacing: 2px;
-  text-align: start;
-  padding-top: 14%;
-  padding-left: 20px;
-  color: #5e72e4;
+header .links {
+  font-family: inherit;
+  font-weight: 300;
+  margin-left: 900px;
+  margin-right: 28px;
+  padding-top: 20px;
+  text-align: right;
 }
 
-header p span img {
-  height: 55px;
+header .links a {
+  padding-left: 100px;
+}
+
+header div {
+  padding-top: 17%;
+  padding-left: 105px;
+}
+
+header div p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 95px;
+  color: white;
+  margin-top: -30px;
+}
+
+header .my--name {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  letter-spacing: 5.5px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  float: left;
+  margin-left: -130px;
+  margin-top: -50px;
+}
+
+header .my--name span {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+}
+
+header .blood {
+  margin-top: -60px;
 }
 
 header h1 {
-  font-family: 'Righteous', cursive;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
   font-weight: 300;
-  font-size: 28px;
-  text-align: start;
-  letter-spacing: 0.8px;
-  color: #525f7f;
-  padding-left: 20px;
+  color: white;
 }
 
 header div {
@@ -385,24 +372,21 @@ header .bounce-in-top {
 
 section {
   height: 100vh;
-  background-color: #f8f8f8;
+  background-color: #171941;
   font-family: inherit;
+  background-image: url("../img/dots.png");
+  background-size: contain;
 }
 
 .tab--sections {
   height: auto;
-  background-color: transparent;
-  border-radius: 0px 0px 50px 50px;
-  background-size: fill;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-position-x: right;
+  background-color: #171941;
   padding-bottom: 50px;
 }
 
 .tab--sections p {
   font-size: 60px;
-  color: #383838;
+  color: white;
   text-align: center;
 }
 

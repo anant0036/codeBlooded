@@ -8,10 +8,11 @@
         color: white;
         font-family: inherit;
         font-size: 20px;
-        font-weight: 700;
+        font-weight: 500;
         letter-spacing: 1px;
-        width: 130px;
+        width: 125px;
         height: 60px;
+        background-image: linear-gradient(to bottom left,#e14eca,#ba54f5,#e14eca);
 }
 
 .btn-card
@@ -23,6 +24,7 @@
         width: 120px;
         font-family: inherit;
         margin-top: 12px;
+        margin-left: 180px;;
         border-radius: 5px;
         font-size: 15px;
         letter-spacing: 0.5px;
@@ -42,6 +44,7 @@
         font-size: 35px;
         font-weight: 500;
         letter-spacing: 1.5px;
+        color: white;
 }
 .res-heading
 {
@@ -50,6 +53,7 @@
         letter-spacing: 0.8px;
         margin-bottom: 10px;
         margin-top: 10px;
+
 }
 
 .res-para
@@ -63,28 +67,29 @@
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
+        color: white;
 
 }
 
 .card
 {
-        // border: 2px solid red;
         border-radius: 25px;
         box-shadow: 0px 10px 82px -29px rgba(0,0,0,0.5);
         padding: 12px;
-        background-color: rgba(0, 0, 0,0);
-        background-image: url('../img/bg_card.svg');
+        // background-color: rgba(0, 0, 0,0);
+        background: linear-gradient(35deg,rgb(245, 54, 92),rgb(245, 96, 54))!important;
+        // background-image: url('../img/card_03.svg');
         background-size: cover;
         background-position: top;
         background-repeat: no-repeat;
         background-position-x: right; 
         width: 375px;
         height:270px;
-        // color: white;
         img
         {
-                height: 50px;
-                width: 50px;
+                height: 40px;
+                width: 40px;
+                border-radius: 50%;
         }
 
 }
