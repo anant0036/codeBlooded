@@ -32,6 +32,8 @@
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
+        // align-items:flex-start;
+        // align-content: flex-start;
         // padding-left: 20px;
 }
 
@@ -39,7 +41,9 @@
 {
         padding: 18px;
         border-radius: 20px;
-
+        margin-bottom: 50px;
+        height: 26vh;
+        width: 60vh;
 
 
         &:hover

@@ -175,6 +175,9 @@
 .card {
   padding: 18px;
   border-radius: 20px;
+  margin-bottom: 50px;
+  height: 26vh;
+  width: 60vh;
 }
 
 .card:hover {
@@ -334,9 +337,10 @@ header h1 {
 }
 
 section {
-  height: 100vh;
+  height: auto;
   font-family: inherit;
   background-color: white;
+  margin-bottom: 40px;
 }
 
 .tab--sections {
