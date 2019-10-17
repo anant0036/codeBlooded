@@ -149,6 +149,35 @@
   background-image: linear-gradient(to bottom left, #e14eca, #ba54f5, #e14eca);
 }
 
+@media only screen and (max-width: 85.375em) {
+  .btn-cate {
+    font-size: 20px;
+    width: 120px;
+    height: 50px;
+  }
+}
+
+.btn--card {
+  background-color: #5e72e4;
+  padding: 10px;
+  font-size: 13.5px;
+  border-radius: 5px;
+  letter-spacing: 0.8px;
+}
+
+@media only screen and (max-width: 85.375em) {
+  .btn--card {
+    padding: 8px;
+    font-size: 12.5px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+  }
+}
+
+.btn--card:hover {
+  background-color: #3d55df;
+}
+
 .lang-heading {
   text-align: center;
   padding-top: 30px;
@@ -156,6 +185,17 @@
   font-size: 35px;
   font-weight: 500;
   letter-spacing: 1.5px;
+}
+
+@media only screen and (max-width: 85.375em) {
+  .lang-heading {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+  }
 }
 
 .container {
@@ -176,8 +216,18 @@
   padding: 18px;
   border-radius: 20px;
   margin-bottom: 50px;
-  height: 26vh;
-  width: 60vh;
+  height: auto;
+  width: 58.5vh;
+}
+
+@media only screen and (max-width: 85.375em) {
+  .card {
+    padding: 16px;
+    border-radius: 18px;
+    margin-bottom: 45px;
+    height: auto;
+    width: 57.5vh;
+  }
 }
 
 .card:hover {
@@ -190,6 +240,13 @@
   width: 40px;
 }
 
+@media only screen and (max-width: 85.375em) {
+  .res--img {
+    height: 25px;
+    width: 25px;
+  }
+}
+
 .res--name {
   font-size: 25.5px;
   font-family: inherit;
@@ -198,6 +255,18 @@
   padding-bottom: 10px;
   padding-top: 10px;
   color: #2dce89;
+}
+
+@media only screen and (max-width: 85.375em) {
+  .res--name {
+    font-size: 19px;
+    font-family: inherit;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    color: #2dce89;
+  }
 }
 
 .res--desc {
@@ -210,68 +279,15 @@
   color: #172b4d;
 }
 
-.btn--card {
-  background-color: #5e72e4;
-  padding: 10px;
-  font-size: 13.5px;
-  border-radius: 5px;
-  letter-spacing: 0.8px;
-}
-
-.btn--card:hover {
-  background-color: #3d55df;
-}
-
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
-}
-
-html {
-  font-size: 62.5%;
-  scroll-behavior: smooth;
-}
-
-html a:link, html a:visited {
-  text-decoration: none;
-  border: none;
-  color: white;
-}
-
-@media only screen and (max-width: 75em) {
-  html {
-    font-size: 56.25%;
+@media only screen and (max-width: 85.375em) {
+  .res--desc {
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    padding-bottom: 22px;
+    padding-top: 4px;
   }
-}
-
-@media only screen and (max-width: 56.25em) {
-  html {
-    font-size: 50%;
-  }
-}
-
-body {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  background-color: white;
-}
-
-@media only screen and (max-width: 56.25em) {
-  body {
-    padding: 0;
-  }
-}
-
-.black {
-  color: black !important;
 }
 
 header {
@@ -287,14 +303,14 @@ header {
 header .links {
   font-family: inherit;
   font-weight: 400;
-  margin-left: 900px;
-  margin-right: 50px;
-  padding-top: 20px;
+  margin-left: 56.25rem;
+  margin-right: 3.125rem;
+  padding-top: 1.25rem;
   text-align: right;
 }
 
 header .links a {
-  padding-left: 70px;
+  padding-left: 4.375rem;
 }
 
 header div {
@@ -303,10 +319,34 @@ header div {
   margin-left: 35%;
 }
 
+@media only screen and (max-width: 85.375em) {
+  header div {
+    margin-top: 13%;
+  }
+}
+
 header div p {
   font-size: 110px;
   font-weight: 700;
   margin-top: -30px;
+}
+
+@media only screen and (max-width: 85.375em) {
+  header div p {
+    font-size: 80px;
+    font-weight: 700;
+    margin-top: -30px;
+  }
+}
+
+header .blood {
+  margin-top: -72px;
+}
+
+@media only screen and (max-width: 85.375em) {
+  header .blood {
+    margin-top: -58px;
+  }
 }
 
 header .my--name {
@@ -319,14 +359,25 @@ header .my--name {
   margin-left: -125px;
 }
 
+@media only screen and (max-width: 85.375em) {
+  header .my--name {
+    font-size: 15px;
+    letter-spacing: 4.5px;
+    margin-left: -105px;
+  }
+}
+
 header .my--name span {
   font-size: 25px;
   font-weight: 600;
   letter-spacing: 2.5px;
 }
 
-header .blood {
-  margin-top: -72px;
+@media only screen and (max-width: 85.375em) {
+  header .my--name span {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
 }
 
 header h1 {
@@ -352,9 +403,26 @@ section {
   padding-bottom: 50px;
 }
 
+@media only screen and (max-width: 85.375em) {
+  .tab--sections {
+    height: auto;
+    background-image: url("../img/tab_sec.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-bottom: 40px;
+  }
+}
+
 .tab--sections p {
   font-size: 60px;
   text-align: center;
+}
+
+@media only screen and (max-width: 85.375em) {
+  .tab--sections p {
+    font-size: 45px;
+  }
 }
 
 .tab--sections i {
@@ -389,5 +457,62 @@ section {
 
 .tab--sections .orange:hover {
   background-color: #fa441b;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+html a:link, html a:visited {
+  text-decoration: none;
+  border: none;
+  color: white;
+}
+
+@media only screen and (max-width: 85.375em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media only screen and (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media only screen and (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media only screen and (max-width: 85.375em) {
+  body {
+    font-size: 14px;
+  }
+}
+
+.black {
+  color: black !important;
 }
 /*# sourceMappingURL=style.css.map */

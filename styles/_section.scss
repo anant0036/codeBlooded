@@ -1,0 +1,198 @@
+//HEADER FONT
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700&display=swap');
+
+//###############################################################################################
+
+header
+{
+    height: 100vh;
+    background-image: url('../img/banner_4.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    
+    .links
+    {
+        font-family: inherit;
+        font-weight: 400;
+        margin-left: 56.25rem;
+        margin-right: 3.125rem;
+        padding-top: 1.25rem;
+        text-align: right;
+
+        a
+        {
+            padding-left: 4.375rem;
+        }
+    }
+    
+    div
+    {
+        // border: 2px solid green;
+        width: 850px;
+        margin-top: 16%;
+        margin-left: 35%;
+
+        @media only screen and (max-width: 85.375em)
+        {
+            margin-top: 13%;
+        }
+
+        p
+        {
+            font-size: 110px;
+            font-weight: 700;
+            margin-top: -30px;
+
+            @media only screen and (max-width: 85.375em)
+            {
+                font-size: 80px;
+                font-weight: 700;
+                margin-top: -30px;
+            }
+        }
+    }
+
+    .blood
+    {
+       margin-top: -72px;
+       @media only screen and (max-width: 85.375em)
+       {
+        margin-top: -58px;
+       }
+    }
+
+    .my--name
+    {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        letter-spacing: 5.5px;
+        transform: rotate(-90deg);
+        float: left;
+        margin-left: -125px;
+
+        @media only screen and (max-width: 85.375em)
+        {
+            font-size: 15px;
+            letter-spacing: 4.5px;
+            margin-left: -105px;
+        }
+
+        span
+        {
+            font-size: 25px;
+            font-weight: 600;
+            letter-spacing: 2.5px;
+
+            @media only screen and (max-width: 85.375em)
+            {
+                font-size: 20px;
+                letter-spacing: 2px;
+            }
+        }
+
+    }
+    
+
+    
+    
+    h1
+    {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        color: rgba(0, 0, 0,0.45);
+
+        
+    }
+
+    
+}
+
+//#########################################################################################
+
+
+//SECTION ALL
+section
+{
+        height: auto;
+        font-family: inherit;
+        background-color: white;
+        margin-bottom: 40px;
+        // background-image: url('../img/section.png');
+        // background-size: cover;
+        // background-position: top;
+        // background-repeat: no-repeat;
+}
+
+//#############################################################################################
+
+//TAB_SECTION
+
+.tab--sections
+{
+        height: auto;
+        background-image: url('../img/tab_sec.png');
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        padding-bottom: 50px;
+
+        @media only screen and (max-width: 85.375em)
+        {
+            height: auto;
+            background-image: url('../img/tab_sec.png');
+            background-size: cover;
+            background-position: top;
+            background-repeat: no-repeat;
+            padding-bottom: 40px;
+        }
+        p
+        {
+                font-size: 60px;
+                text-align: center;
+
+                @media only screen and (max-width: 85.375em)
+                {
+                    font-size: 45px;
+                }
+        }
+        i
+        {
+                font-size: 55px;
+                color:white;
+        }
+        
+        a:link,a:visited
+        {
+                text-decoration: none;
+                border: none;
+                color:white;
+        }
+
+        .cate
+        {
+             display: flex;
+             flex-direction: row; 
+             justify-content: space-evenly;
+             margin-top: 0.5%;
+             margin-bottom: 1%;
+        }
+
+        .orange
+        {
+                background-color: #fb6340;
+                &:hover
+                {
+                    background-color:#fa441b;
+                }
+        }
+
+        
+        
+}
+
+//############################################################################################

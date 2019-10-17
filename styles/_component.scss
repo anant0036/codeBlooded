@@ -1,3 +1,4 @@
+//BUTTON
 .btn-cate
 {
         border: none;
@@ -13,7 +14,42 @@
         width: 185px;
         height: 80px;
         background-image: linear-gradient(to bottom left,#e14eca,#ba54f5,#e14eca);
+
+        @media only screen and (max-width: 85.375em)
+        {
+                font-size: 20px;
+                width: 120px;
+                height: 50px;
+        }
 }
+
+.btn--card
+{
+        background-color:#5e72e4 ;
+        padding:10px;
+        font-size: 13.5px;
+        border-radius: 5px;
+        letter-spacing: 0.8px;
+
+        @media only screen and (max-width: 85.375em)
+        {
+                padding:8px;
+                font-size: 12.5px;
+                border-radius: 4px;
+                letter-spacing: 0.5px;
+        }
+        
+        &:hover
+        {
+                background-color: #3d55df;
+                
+        }
+}
+
+//################################################################################################
+
+
+//HEADINGS
 
 .lang-heading
 {
@@ -23,8 +59,21 @@
         font-size: 35px;
         font-weight: 500;
         letter-spacing: 1.5px;
-}
 
+        @media only screen and (max-width: 85.375em)
+        {
+                text-align: center;
+                padding-top: 20px;
+                padding-bottom: 25px;
+                font-size: 30px;
+                font-weight: 500;
+                letter-spacing: 1.2px;
+        }
+}
+//#################################################################################################
+
+
+//CARD FULL SETUP
 .container
 {
         
@@ -32,19 +81,29 @@
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
-        // align-items:flex-start;
-        // align-content: flex-start;
-        // padding-left: 20px;
-}
 
+        @media only screen and (max-width: 85.375em)
+        {
+
+        }
+
+}
 .card
 {
         padding: 18px;
         border-radius: 20px;
         margin-bottom: 50px;
-        height: 26vh;
-        width: 60vh;
+        height: auto;
+        width: 58.5vh;
 
+        @media only screen and (max-width: 85.375em)
+        {
+                padding: 16px;
+                border-radius: 18px;
+                margin-bottom: 45px;
+                height: auto;
+                width: 57.5vh;
+        }
 
         &:hover
         {
@@ -58,6 +117,12 @@
 {
         height: 40px;
         width: 40px;
+
+        @media only screen and (max-width: 85.375em)
+        {
+                height: 25px;
+                width: 25px;
+        }
 }
 
 .res--name
@@ -69,6 +134,17 @@
         padding-bottom: 10px;
         padding-top: 10px;
         color:#2dce89;
+
+        @media only screen and (max-width: 85.375em)
+        {
+                font-size: 19px;
+                font-family: inherit;
+                font-weight: 500;
+                letter-spacing: 0.5px;
+                padding-bottom: 8px;
+                padding-top: 8px;
+                color:#2dce89;
+        }
 }
 
 .res--desc
@@ -80,20 +156,16 @@
         padding-bottom: 25px;
         padding-top: 5px;
         color: #172b4d;
-}
 
-.btn--card
-{
-        background-color:#5e72e4 ;
-        padding:10px;
-        font-size: 13.5px;
-        border-radius: 5px;
-        letter-spacing: 0.8px;
-        
-        &:hover
+        @media only screen and (max-width: 85.375em)
         {
-                background-color: #3d55df;
-                
+                font-size: 14px;
+                font-family: inherit;
+                font-weight: 400;
+                letter-spacing: 0.5px;
+                padding-bottom: 22px;
+                padding-top: 4px;
         }
 }
+//################################################################################################
 

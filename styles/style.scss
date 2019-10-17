@@ -1,7 +1,12 @@
+//INCLUDES
 @import './animation';
 @import './component';
+@import './section';
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700&display=swap');
+
+//###########################################################################################
+
+
 *,
 *::after,
 *::before
@@ -10,6 +15,7 @@
   padding: 0;
   box-sizing: inherit;
 }
+
 
 html 
 {
@@ -22,6 +28,14 @@ html
                 color:white;
         }
 }
+@media only screen and (max-width: 85.375em)//LATITUDE
+{
+    html
+    {
+        font-size: 56.25%; 
+    } 
+}
+
 @media only screen and (max-width: 75em) 
 {
     html 
@@ -29,6 +43,7 @@ html
         font-size: 56.25%; 
     } 
 }
+
 @media only screen and (max-width: 56.25em)
 {
     html 
@@ -39,164 +54,59 @@ html
 
 body 
 {
-    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    background-color: white;
-      
-}
-@media only screen and (max-width: 56.25em) 
-{
-    body 
+    box-sizing: border-box;
+
+    @media only screen and (max-width: 85.375em)
     {
-        padding: 0; 
-    } 
+        font-size: 14px;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//OTHER CLASSES
 
 .black
 {
     color: black !important;
 }
 
-header
-{
-    height: 100vh;
-    background-image: url('../img/banner_4.png');
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-    
-    .links
-    {
-        font-family: inherit;
-        font-weight: 400;
-        margin-left: 900px;
-        margin-right: 50px;
-        padding-top: 20px;
-        text-align: right;
-
-        a
-        {
-            padding-left: 70px;
-        }
-    }
-    
-    div
-    {
-        // border: 2px solid green;
-        width: 850px;
-        margin-top: 16%;
-        margin-left: 35%;
-        p
-        {
-            font-size: 110px;
-            font-weight: 700;
-            margin-top: -30px;
-        }
-    }
-
-    .my--name
-    {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 18px;
-        letter-spacing: 5.5px;
-        transform: rotate(-90deg);
-        float: left;
-        margin-left: -125px;
-        
-
-        span
-        {
-            font-size: 25px;
-            font-weight: 600;
-            letter-spacing: 2.5px;
-        }
-
-    }
-    
-
-    .blood
-    {
-       margin-top: -72px;
-    }
-    
-    h1
-    {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        font-weight: 600;
-        color: rgba(0, 0, 0,0.45);
-
-        
-    }
-
-    
-}
-
-section
-{
-        height: auto;
-        font-family: inherit;
-        background-color: white;
-        margin-bottom: 40px;
-        // background-image: url('../img/section.png');
-        // background-size: cover;
-        // background-position: top;
-        // background-repeat: no-repeat;
-}
-
-
-
-
-.tab--sections
-{
-        height: auto;
-        background-image: url('../img/tab_sec.png');
-        background-size: cover;
-        background-position: top;
-        background-repeat: no-repeat;
-        padding-bottom: 50px;
-        p
-        {
-                font-size: 60px;
-                text-align: center;
-        }
-        i
-        {
-                font-size: 55px;
-                color:white;
-        }
-        
-        a:link,a:visited
-        {
-                text-decoration: none;
-                border: none;
-                color:white;
-        }
-
-        .cate
-        {
-             display: flex;
-             flex-direction: row; 
-             justify-content: space-evenly;
-             margin-top: 0.5%;
-             margin-bottom: 1%;
-        }
-
-        .orange
-        {
-                background-color: #fb6340;
-                &:hover
-                {
-                    background-color:#fa441b;
-                }
-        }
-
-        
-        
-}
-
+//#############################################################################################
