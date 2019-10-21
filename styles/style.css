@@ -482,6 +482,7 @@ html a:link, html a:visited {
 @media only screen and (max-width: 85.375em) {
   html {
     font-size: 56.25%;
+    scroll-behavior: smooth;
   }
 }
 
