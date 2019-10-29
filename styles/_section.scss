@@ -196,3 +196,112 @@ section
 }
 
 //############################################################################################
+
+//############################################################################################
+
+footer
+{
+    height: 65vh;
+    color: white;
+    background-color: black;
+    padding-top: 0px;
+    font-family: 'Montserrat', sans-serif;
+    clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 100%);
+
+    @media only screen and (max-width: 85.375em)
+    {
+        clip-path: polygon(0 0, 100% 22%, 100% 100%, 0 100%);
+    }
+
+    .footer-cont
+    {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        // border: 2px solid red;
+        padding: 2px;
+        height: 65vh;
+
+    }
+    
+    .my
+    {
+        font-size: 70px;
+
+        @media only screen and (max-width: 85.375em)
+        {
+            font-size: 62px;
+        }
+        i
+        {
+            font-size: 45px;
+            margin-right: 25px;
+            border-radius: 50%;
+            color: red;
+        }
+    }
+
+    .form
+    {
+        p
+        {
+            font-size: 35px;
+
+            @media only screen and (max-width: 85.375em)
+            {
+                font-size: 28px;
+            }
+        }
+
+        
+
+        input
+        {
+            border: none;
+            outline: none;
+            height: 32px;
+            width: 300px;
+            margin-top: 4px;
+            margin-bottom: 4px;
+            padding-left: 8px;
+            font-family: inherit;
+            font-size: 15.5px;
+            border-radius: 20px;
+
+            &:focus
+            {
+                border: 1px solid red;
+            }
+
+        }
+
+        .FEEDBACK
+        {
+            height: 90px;
+            padding-bottom:50px;
+        }
+
+        .btn-form
+        {
+            border: none;
+            outline: none;
+            background-color: red;
+            height: 30px;
+            width: 90px;
+            border-radius: 10px;
+            margin-top: 10px;
+            margin-left: 4px;
+            color:white;
+            font-family: inherit;
+
+            
+        }
+    }
+
+    .drop
+    {
+        height: 68px;
+    }
+}

@@ -459,6 +459,108 @@ section {
   background-color: #fa441b;
 }
 
+footer {
+  height: 65vh;
+  color: white;
+  background-color: black;
+  padding-top: 0px;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 100%);
+          clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 100%);
+}
+
+@media only screen and (max-width: 85.375em) {
+  footer {
+    -webkit-clip-path: polygon(0 0, 100% 22%, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 22%, 100% 100%, 0 100%);
+  }
+}
+
+footer .footer-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2px;
+  height: 65vh;
+}
+
+footer .my {
+  font-size: 70px;
+}
+
+@media only screen and (max-width: 85.375em) {
+  footer .my {
+    font-size: 62px;
+  }
+}
+
+footer .my i {
+  font-size: 45px;
+  margin-right: 25px;
+  border-radius: 50%;
+  color: red;
+}
+
+footer .form p {
+  font-size: 35px;
+}
+
+@media only screen and (max-width: 85.375em) {
+  footer .form p {
+    font-size: 28px;
+  }
+}
+
+footer .form input {
+  border: none;
+  outline: none;
+  height: 32px;
+  width: 300px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding-left: 8px;
+  font-family: inherit;
+  font-size: 15.5px;
+  border-radius: 20px;
+}
+
+footer .form input:focus {
+  border: 1px solid red;
+}
+
+footer .form .FEEDBACK {
+  height: 90px;
+  padding-bottom: 50px;
+}
+
+footer .form .btn-form {
+  border: none;
+  outline: none;
+  background-color: red;
+  height: 30px;
+  width: 90px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 4px;
+  color: white;
+  font-family: inherit;
+}
+
+footer .drop {
+  height: 68px;
+}
+
 *,
 *::after,
 *::before {
