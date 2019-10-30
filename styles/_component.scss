@@ -125,6 +125,18 @@
         }
 }
 
+.res--imglarge
+{
+        height: 40px;
+        width: auto;
+
+        @media only screen and (max-width: 85.375em)
+        {
+                height: 30px;
+                width: auto;
+        }
+}
+
 .res--name
 {
         font-size: 25.5px;

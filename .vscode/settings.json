@@ -1,8 +1,8 @@
 {
     "git.ignoreLimitWarning": true,
-    "editor.fontSize": 17.5,
-    "window.zoomLevel": -0.30,
-    "terminal.integrated.fontSize": 15.5,
+    "editor.fontSize": 18.5,
+    "window.zoomLevel": -1.09,
+    "terminal.integrated.fontSize": 16,
     "terminal.integrated.fontWeightBold": "normal",
     "terminal.integrated.letterSpacing": 1
 }

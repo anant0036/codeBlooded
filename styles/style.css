@@ -247,6 +247,18 @@
   }
 }
 
+.res--imglarge {
+  height: 40px;
+  width: auto;
+}
+
+@media only screen and (max-width: 85.375em) {
+  .res--imglarge {
+    height: 30px;
+    width: auto;
+  }
+}
+
 .res--name {
   font-size: 25.5px;
   font-family: inherit;
