@@ -9,39 +9,52 @@
         color: white;
         font-family: inherit;
         font-size: 26px;
-        font-weight: 500;
+        font-weight: 400;
         letter-spacing: 1px;
-        width: 185px;
-        height: 80px;
-        background-image: linear-gradient(to bottom left,#e14eca,#ba54f5,#e14eca);
+        width: 175px;
+        height: 70px;
+        // background-image: linear-gradient(to bottom left,#e14eca,#ba54f5,#e14eca);
+        background-color:#7850f0 ;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 2px;
 
         @media only screen and (max-width: 85.375em)
         {
                 font-size: 20px;
-                width: 120px;
-                height: 50px;
+                width: 110px;
+                height: 45px;
         }
 }
 
 .btn--card
 {
-        background-color:#5e72e4 ;
-        padding:10px;
+        background-color:#7850f0 ;
+        padding:12px 35px;
         font-size: 13.5px;
-        border-radius: 5px;
+        border-radius: 40px;
+        border-top-right-radius: 1px;
         letter-spacing: 0.8px;
+        color:white;
+
+        transition: padding 0.3s  ease-in;
+        
 
         @media only screen and (max-width: 85.375em)
         {
                 padding:8px;
                 font-size: 12.5px;
-                border-radius: 4px;
+                border-radius: 40px;
+                border-top-right-radius: 1px;
                 letter-spacing: 0.5px;
+                padding:10px 30px;
+
+                
         }
         
         &:hover
         {
-                background-color: #3d55df;
+                padding:12.5px 36.5px;
                 
         }
 }
@@ -79,8 +92,11 @@
         
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content:start;
         flex-wrap: wrap;
+        padding-left: 4%;
+        padding-right: 1.5%;
+        // border: 2px solid red;
 
         @media only screen and (max-width: 85.375em)
         {
@@ -93,21 +109,24 @@
         padding: 18px;
         border-radius: 20px;
         margin-bottom: 50px;
-        height: auto;
-        width: 58.5vh;
+        margin-left: 14px;
+        margin-right: 14px;
+        // height:200px;
+        width: 31%;
+        transition: box-shadow 0.3s  ease-in;
 
         @media only screen and (max-width: 85.375em)
         {
                 padding: 16px;
                 border-radius: 18px;
                 margin-bottom: 45px;
-                height: auto;
-                width: 57.5vh;
+                // height: auto;
+                width: 31%;
         }
 
         &:hover
         {
-                box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.3);
+                box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.2);
         }
 
 
@@ -115,24 +134,25 @@
 
 .res--img
 {
-        height: 40px;
-        width: 40px;
+        height: 55px;
+        width: 55px;
+        
 
         @media only screen and (max-width: 85.375em)
         {
-                height: 25px;
-                width: 25px;
+                height: 38px;
+                width: 38px;
         }
 }
 
 .res--imglarge
 {
-        height: 40px;
+        height: 50px;
         width: auto;
 
         @media only screen and (max-width: 85.375em)
         {
-                height: 30px;
+                height: 35px;
                 width: auto;
         }
 }

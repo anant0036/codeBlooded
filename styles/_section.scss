@@ -157,13 +157,7 @@ section
         height: auto;
         font-family: inherit;
         background-color: white;
-        margin-bottom: 40px;
-        // background-image: url('../img/section.png');
-        // background-size: cover;
-        // background-position: top;
-        // background-repeat: no-repeat;
 }
-
 //#############################################################################################
 
 //TAB_SECTION
@@ -213,9 +207,11 @@ section
         {
              display: flex;
              flex-direction: row; 
-             justify-content: space-evenly;
+             justify-content: start;
+             flex-wrap: wrap;
              margin-top: 0.5%;
              margin-bottom: 1%;
+             margin-left: 4.5%;
         }
 
         .orange
@@ -242,11 +238,11 @@ footer
     background-color: black;
     padding-top: 0px;
     font-family: 'Montserrat', sans-serif;
-    clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 100%);
+    // clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 100%);
 
     @media only screen and (max-width: 85.375em)
     {
-        clip-path: polygon(0 0, 100% 22%, 100% 100%, 0 100%);
+        // clip-path: polygon(0 0, 100% 22%, 100% 100%, 0 100%);
     }
 
     .footer-cont

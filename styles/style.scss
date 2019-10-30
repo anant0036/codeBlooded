@@ -60,6 +60,7 @@ body
     font-size: 16px;
     line-height: 1.5;
     box-sizing: border-box;
+    
 
     @media only screen and (max-width: 85.375em)
     {
@@ -108,6 +109,11 @@ body
 .black
 {
     color: black !important;
+}
+
+.light--sec
+{
+    background-color: rgba(0, 0, 0,0.039);
 }
 
 //#############################################################################################
