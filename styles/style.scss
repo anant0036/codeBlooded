@@ -21,7 +21,7 @@ html
 {
     font-size: 62.5%;
     scroll-behavior: smooth;
-    color: red;
+    // color: red;
     a:link,a:visited
         {
                 text-decoration: none;
@@ -35,7 +35,7 @@ html
     {
         font-size: 56.25%; 
         scroll-behavior: smooth;
-        color: yellow;
+        // color: yellow;
     } 
 }
 
@@ -44,15 +44,16 @@ html
     html 
     {
         font-size: 56.25%; 
-        color: royalblue;
+        // color: royalblue;
     } 
 }
 
-@media only screen and (max-width: 56.25em)
+@media only screen and (max-width: 28.125em)
 {
     html 
     {
         font-size: 50%;
+        // color: cyan;
     } 
 }
 
@@ -68,6 +69,11 @@ body
     @media only screen and (max-width: 96.875em)
     {
         font-size: 14px;
+    }
+
+    @media only screen and (max-width: 28.125em)
+    {
+        font-size: 12px;
     }
 }
 

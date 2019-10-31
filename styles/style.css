@@ -91,6 +91,16 @@
   }
 }
 
+@media only screen and (max-width: 28.125em) {
+  .btn-cate {
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+}
+
 .btn--card {
   background-color: #7850f0;
   padding: 12px 35px;
@@ -138,6 +148,14 @@
   }
 }
 
+@media only screen and (max-width: 28.125em) {
+  .lang-heading {
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+  }
+}
+
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -153,6 +171,17 @@
       flex-wrap: wrap;
   padding-left: 4%;
   padding-right: 1.5%;
+}
+
+@media only screen and (max-width: 28.125em) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 2.5%;
+    padding-right: 1.5%;
+  }
 }
 
 .card {
@@ -174,6 +203,15 @@
     border-radius: 18px;
     margin-bottom: 45px;
     width: 31%;
+  }
+}
+
+@media only screen and (max-width: 28.125em) {
+  .card {
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.15);
+    width: 91%;
+    padding: 16px;
   }
 }
 
@@ -259,6 +297,13 @@ header {
   color: black;
 }
 
+@media only screen and (max-width: 28.125em) {
+  header {
+    background-size: cover;
+    background-position: inherit;
+  }
+}
+
 header .links {
   font-family: inherit;
   font-weight: 600;
@@ -266,6 +311,18 @@ header .links {
   margin-right: 3.125rem;
   padding-top: 1.25rem;
   text-align: right;
+}
+
+@media only screen and (max-width: 28.125em) {
+  header .links {
+    visibility: hidden;
+    font-family: inherit;
+    font-weight: 600;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 1.25rem;
+    text-align: right;
+  }
 }
 
 header .links a {
@@ -284,6 +341,14 @@ header div {
   }
 }
 
+@media only screen and (max-width: 28.125em) {
+  header div {
+    width: 0px;
+    margin-top: 64.5%;
+    margin-left: 20%;
+  }
+}
+
 header div p {
   font-size: 110px;
   font-weight: 700;
@@ -298,6 +363,14 @@ header div p {
   }
 }
 
+@media only screen and (max-width: 28.125em) {
+  header div p {
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: -30px;
+  }
+}
+
 header .blood {
   margin-top: -72px;
 }
@@ -305,6 +378,12 @@ header .blood {
 @media only screen and (max-width: 96.875em) {
   header .blood {
     margin-top: -58px;
+  }
+}
+
+@media only screen and (max-width: 28.125em) {
+  header .blood {
+    margin-top: -32px;
   }
 }
 
@@ -326,6 +405,14 @@ header .my--name {
   }
 }
 
+@media only screen and (max-width: 28.125em) {
+  header .my--name {
+    font-size: 10px;
+    letter-spacing: 4.5px;
+    margin-left: -90px;
+  }
+}
+
 header .my--name span {
   font-size: 25px;
   font-weight: 600;
@@ -339,11 +426,23 @@ header .my--name span {
   }
 }
 
+@media only screen and (max-width: 28.125em) {
+  header .my--name span {
+    font-size: 14px;
+  }
+}
+
 header h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.45);
+}
+
+@media only screen and (max-width: 28.125em) {
+  header h1 {
+    font-size: 14px;
+  }
 }
 
 header .dir {
@@ -367,6 +466,17 @@ header .dir {
     padding: 3px 15px;
     z-index: 1;
     border-radius: 10px;
+  }
+}
+
+@media only screen and (max-width: 28.125em) {
+  header .dir {
+    top: 85vh;
+    right: 30px;
+    font-size: 32px;
+    padding: 2.5px 13px;
+    z-index: 1;
+    border-radius: 8px;
   }
 }
 
@@ -401,6 +511,14 @@ section {
   }
 }
 
+@media only screen and (max-width: 28.125em) {
+  .tab--sections {
+    background-image: url("../img/tab_sec.png");
+    background-size: cover;
+    background-position: inherit;
+  }
+}
+
 .tab--sections p {
   font-size: 60px;
   text-align: center;
@@ -409,6 +527,12 @@ section {
 @media only screen and (max-width: 96.875em) {
   .tab--sections p {
     font-size: 45px;
+  }
+}
+
+@media only screen and (max-width: 28.125em) {
+  .tab--sections p {
+    font-size: 35px;
   }
 }
 
@@ -476,6 +600,21 @@ footer .footer-cont {
   height: 65vh;
 }
 
+@media only screen and (max-width: 28.125em) {
+  footer .footer-cont {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-left: 15px;
+  }
+}
+
 footer .my {
   font-size: 70px;
 }
@@ -486,11 +625,23 @@ footer .my {
   }
 }
 
+@media only screen and (max-width: 28.125em) {
+  footer .my {
+    font-size: 45px;
+  }
+}
+
 footer .my i {
   font-size: 45px;
   margin-right: 25px;
   border-radius: 50%;
   color: red;
+}
+
+@media only screen and (max-width: 28.125em) {
+  footer .my i {
+    font-size: 40px;
+  }
 }
 
 footer .form p {
@@ -500,6 +651,12 @@ footer .form p {
 @media only screen and (max-width: 96.875em) {
   footer .form p {
     font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 28.125em) {
+  footer .form p {
+    font-size: 23px;
   }
 }
 
@@ -554,7 +711,6 @@ footer .drop {
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-  color: red;
 }
 
 html a:link, html a:visited {
@@ -567,18 +723,16 @@ html a:link, html a:visited {
   html {
     font-size: 56.25%;
     scroll-behavior: smooth;
-    color: yellow;
   }
 }
 
 @media only screen and (max-width: 75em) {
   html {
     font-size: 56.25%;
-    color: royalblue;
   }
 }
 
-@media only screen and (max-width: 56.25em) {
+@media only screen and (max-width: 28.125em) {
   html {
     font-size: 50%;
   }
@@ -596,6 +750,12 @@ body {
 @media only screen and (max-width: 96.875em) {
   body {
     font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 28.125em) {
+  body {
+    font-size: 12px;
   }
 }
 

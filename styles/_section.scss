@@ -13,6 +13,12 @@ header
     background-repeat: no-repeat;
     font-family: 'Montserrat', sans-serif;
     color: black;
+
+    @media only screen and (max-width: 28.125em)
+    {
+        background-size: cover;
+        background-position: inherit;
+    }
     
     .links
     {
@@ -22,6 +28,18 @@ header
         margin-right: 3.125rem;
         padding-top: 1.25rem;
         text-align: right;
+
+        @media only screen and (max-width: 28.125em)
+        {   
+            visibility: hidden;
+            // border: 2px solid red;
+            font-family: inherit;
+            font-weight: 600;
+            margin-left: 0px;
+            margin-right: 0px;
+            padding-top: 1.25rem;
+            text-align: right;
+        }
 
 
         a
@@ -42,6 +60,13 @@ header
             margin-top: 13%;
         }
 
+        @media only screen and (max-width: 28.125em)
+        {
+            width: 0px;
+            margin-top: 64.5%;
+            margin-left: 20%;
+        }
+
         p
         {
             font-size: 110px;
@@ -54,6 +79,13 @@ header
                 font-weight: 700;
                 margin-top: -30px;
             }
+
+            @media only screen and (max-width: 28.125em)
+            {
+                font-size: 50px;
+                font-weight: 700;
+                margin-top: -30px;
+            }
         }
     }
 
@@ -63,6 +95,11 @@ header
        @media only screen and (max-width: 96.875em)
        {
         margin-top: -58px;
+       }
+
+       @media only screen and (max-width: 28.125em)
+       {
+        margin-top: -32px;
        }
     }
 
@@ -82,6 +119,13 @@ header
             margin-left: -105px;
         }
 
+        @media only screen and (max-width: 28.125em)
+        {
+            font-size: 10px;
+            letter-spacing: 4.5px;
+            margin-left: -90px;
+        }
+
         span
         {
             font-size: 25px;
@@ -92,6 +136,11 @@ header
             {
                 font-size: 20px;
                 letter-spacing: 2px;
+            }
+
+            @media only screen and (max-width: 28.125em)
+            {
+                font-size: 14px;
             }
         }
 
@@ -106,6 +155,11 @@ header
         font-size: 20px;
         font-weight: 600;
         color: rgba(0, 0, 0,0.45);
+
+        @media only screen and (max-width: 28.125em)
+        {
+            font-size: 14px;
+        }
 
         
     }
@@ -132,6 +186,16 @@ header
             padding: 3px 15px;
             z-index: 1;
             border-radius: 10px;
+        }
+
+        @media only screen and (max-width: 28.125em)
+        {
+            top: 85vh;
+            right: 30px;
+            font-size: 32px;
+            padding: 2.5px 13px;
+            z-index: 1;
+            border-radius: 8px;
         }
 
         &:hover
@@ -180,6 +244,13 @@ section
             background-repeat: no-repeat;
             padding-bottom: 40px;
         }
+
+        @media only screen and (max-width: 28.125em)
+        {
+            background-image: url('../img/tab_sec.png');
+            background-size: cover;
+            background-position: inherit;
+        }
         p
         {
                 font-size: 60px;
@@ -189,6 +260,13 @@ section
                 {
                     font-size: 45px;
                 }
+
+                @media only screen and (max-width: 28.125em)
+                {
+                    font-size: 35px;
+                }
+
+                
         }
         i
         {
@@ -245,6 +323,11 @@ footer
         // clip-path: polygon(0 0, 100% 22%, 100% 100%, 0 100%);
     }
 
+    @media only screen and (max-width: 28.125em)
+    {
+
+    }
+
     .footer-cont
     {
         display:flex;
@@ -256,6 +339,14 @@ footer
         padding: 2px;
         height: 65vh;
 
+        @media only screen and (max-width: 28.125em)
+        {
+            flex-direction: column;
+            align-content: flex-start;
+            align-items: flex-start;
+            margin-left: 15px;
+        }
+
     }
     
     .my
@@ -266,12 +357,22 @@ footer
         {
             font-size: 62px;
         }
+
+        @media only screen and (max-width: 28.125em)
+        {
+            font-size: 45px;
+        }
         i
         {
             font-size: 45px;
             margin-right: 25px;
             border-radius: 50%;
             color: red;
+
+            @media only screen and (max-width: 28.125em)
+            {
+                font-size: 40px;
+            }
         }
     }
 
@@ -284,6 +385,11 @@ footer
             @media only screen and (max-width: 96.875em)
             {
                 font-size: 28px;
+            }
+
+            @media only screen and (max-width: 28.125em)
+            {
+                font-size: 23px;
             }
         }
 
