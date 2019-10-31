@@ -37,7 +37,7 @@ header
         margin-top: 16%;
         margin-left: 35%;
 
-        @media only screen and (max-width: 85.375em)
+        @media only screen and (max-width: 96.875em)
         {
             margin-top: 13%;
         }
@@ -48,7 +48,7 @@ header
             font-weight: 700;
             margin-top: -30px;
 
-            @media only screen and (max-width: 85.375em)
+            @media only screen and (max-width: 96.875em)
             {
                 font-size: 80px;
                 font-weight: 700;
@@ -60,7 +60,7 @@ header
     .blood
     {
        margin-top: -72px;
-       @media only screen and (max-width: 85.375em)
+       @media only screen and (max-width: 96.875em)
        {
         margin-top: -58px;
        }
@@ -75,7 +75,7 @@ header
         float: left;
         margin-left: -125px;
 
-        @media only screen and (max-width: 85.375em)
+        @media only screen and (max-width: 96.875em)
         {
             font-size: 15px;
             letter-spacing: 4.5px;
@@ -88,7 +88,7 @@ header
             font-weight: 600;
             letter-spacing: 2.5px;
 
-            @media only screen and (max-width: 85.375em)
+            @media only screen and (max-width: 96.875em)
             {
                 font-size: 20px;
                 letter-spacing: 2px;
@@ -124,7 +124,7 @@ header
         background-color: rgba(0, 0, 0,0.5);
         border-radius: 12px;
 
-        @media only screen and (max-width: 85.375em)
+        @media only screen and (max-width: 96.875em)
         {
             top: 550px;
             right: 40px;
@@ -171,7 +171,7 @@ section
         background-repeat: no-repeat;
         padding-bottom: 50px;
 
-        @media only screen and (max-width: 85.375em)
+        @media only screen and (max-width: 96.875em)
         {
             height: auto;
             background-image: url('../img/tab_sec.png');
@@ -185,7 +185,7 @@ section
                 font-size: 60px;
                 text-align: center;
 
-                @media only screen and (max-width: 85.375em)
+                @media only screen and (max-width: 96.875em)
                 {
                     font-size: 45px;
                 }
@@ -240,7 +240,7 @@ footer
     font-family: 'Montserrat', sans-serif;
     // clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 100%);
 
-    @media only screen and (max-width: 85.375em)
+    @media only screen and (max-width: 96.875em)
     {
         // clip-path: polygon(0 0, 100% 22%, 100% 100%, 0 100%);
     }
@@ -262,7 +262,7 @@ footer
     {
         font-size: 70px;
 
-        @media only screen and (max-width: 85.375em)
+        @media only screen and (max-width: 96.875em)
         {
             font-size: 62px;
         }
@@ -281,7 +281,7 @@ footer
         {
             font-size: 35px;
 
-            @media only screen and (max-width: 85.375em)
+            @media only screen and (max-width: 96.875em)
             {
                 font-size: 28px;
             }
